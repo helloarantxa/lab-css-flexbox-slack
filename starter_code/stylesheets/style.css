@@ -21,6 +21,14 @@ footer links grey: #454245
     display: flex;
 }
 
+.white {
+    color: white;
+}
+
+.yellow {
+    color:yellow;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -35,6 +43,16 @@ nav ul {
 .content {
     display: flex;
     flex-direction: row; 
+}
+
+.screen-shots {
+    width: 50%;
+    
+}
+
+.teamwork{
+    display: flex;
+    flex-direction: column;
 }
 
 
