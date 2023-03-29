@@ -46,14 +46,44 @@ nav ul {
 }
 
 .screen-shots {
-    width: 50%;
-    
+    width: 50%;   
+}
+.sales-team{
+    width: 90%;
+}
+
+.huddle{
+    width: 90%;
+}
+
+.aceme{
+    width: 90%;
 }
 
 .teamwork{
     display: flex;
     flex-direction: column;
 }
+
+.logos{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    line-height: 1.5;
+}
+
+#social-icons{
+    flex-direction: left;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
 
 
 a:link { text-decoration: none; }
@@ -70,14 +100,14 @@ a:active { text-decoration: none; }
       
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     
     a[href*="#1"] {
         color: #540B51;
       }
   }
 
-  @media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
     
     a[href*="#1"] {
         color: #ffffff;
